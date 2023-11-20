@@ -1,0 +1,1182 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.3532347720370035 0.08969770392942693 0.9312247407225364 2.6336848735984333
+  position 1.4801247967886784 -0.5231541202208274 1.5068778117852986
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  rotation 0 0 1 0.261799
+}
+Robot {
+  children [
+    Pose {
+      rotation 0 0 1 3.14
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0.501961 0.501961
+            roughness 1
+            roughnessMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/plastic/plastic_rough_roughness.jpg"
+              ]
+            }
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/plastic/plastic_rough_normal.jpg"
+              ]
+            }
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/niryo/ned/protos/meshes/base_link_0.obj"
+            ]
+          }
+        }
+      ]
+    }
+    Pose {
+      rotation 0 0 1 3.14
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.909804 0.443137 0.031373
+            baseColorMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/brushed_aluminium/brushed_aluminium_base_color.jpg"
+              ]
+            }
+            roughnessMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/brushed_aluminium/brushed_aluminium_roughness.jpg"
+              ]
+            }
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/brushed_aluminium/brushed_aluminium_normal.jpg"
+              ]
+            }
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/niryo/ned/protos/meshes/base_link_1.obj"
+            ]
+          }
+        }
+      ]
+    }
+    Pose {
+      rotation 0 0 1 3.14
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 1
+            roughness 1
+            roughnessMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/plastic/plastic_rough_roughness.jpg"
+              ]
+            }
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/plastic/plastic_rough_normal.jpg"
+              ]
+            }
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/niryo/ned/protos/meshes/base_link_2.obj"
+            ]
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0.0098 -0.089 0.0539
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            roughnessMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/plastic/plastic_rough_roughness.jpg"
+              ]
+            }
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/plastic/plastic_rough_normal.jpg"
+              ]
+            }
+          }
+          geometry Sphere {
+            radius 0.0026
+          }
+        }
+      ]
+    }
+    Pose {
+      rotation 0 0 1 3.14
+      children [
+        Shape {
+          appearance DEF BLUE_APPEARANCE PBRAppearance {
+            baseColor 0.192157 0.643137 0.866667
+            roughness 1
+            roughnessMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/plastic/plastic_rough_roughness.jpg"
+              ]
+            }
+            metalness 0
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/plastic/plastic_rough_normal.jpg"
+              ]
+            }
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/niryo/ned/protos/meshes/base_link_3.obj"
+            ]
+          }
+        }
+      ]
+    }
+    Pose {
+      rotation 0 0 1 3.14
+      children [
+        Shape {
+          appearance DEF BLACK_APPEARANCE PBRAppearance {
+            baseColor 0.25098 0.25098 0.25098
+            baseColorMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/brushed_aluminium/brushed_aluminium_base_color.jpg"
+              ]
+            }
+            roughnessMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/brushed_aluminium/brushed_aluminium_roughness.jpg"
+              ]
+            }
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/brushed_aluminium/brushed_aluminium_normal.jpg"
+              ]
+            }
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/niryo/ned/protos/meshes/base_link_4.obj"
+            ]
+          }
+        }
+      ]
+    }
+    Pose {
+      rotation 0 0 1 3.14
+      children [
+        Shape {
+          appearance DEF GRAY_APPEARANCE PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/brushed_aluminium/brushed_aluminium_base_color.jpg"
+              ]
+            }
+            roughnessMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/brushed_aluminium/brushed_aluminium_roughness.jpg"
+              ]
+            }
+            normalMap ImageTexture {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/brushed_aluminium/brushed_aluminium_normal.jpg"
+              ]
+            }
+          }
+          geometry Mesh {
+            url [
+              "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/niryo/ned/protos/meshes/base_link_5.obj"
+            ]
+          }
+        }
+      ]
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 2.7999999969369127
+        axis 0 0 1
+        anchor 0 0 0.1065
+      }
+      device [
+        RotationalMotor {
+          name "joint_1"
+          minPosition -2.8
+          maxPosition 2.8
+          maxTorque 10000
+        }
+        PositionSensor {
+          name "joint_1_sensor"
+        }
+      ]
+      endPoint Solid {
+        translation 0 0 0.1065
+        rotation 0 0 0.9999999999999999 2.7999999969369127
+        children [
+          Shape {
+            appearance USE BLACK_APPEARANCE
+            geometry Mesh {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/niryo/ned/protos/meshes/shoulder_link_0.obj"
+              ]
+            }
+          }
+          Shape {
+            appearance USE BLUE_APPEARANCE
+            geometry Mesh {
+              url [
+                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/niryo/ned/protos/meshes/shoulder_link_1.obj"
+              ]
+            }
+          }
+          HingeJoint {
+            jointParameters HingeJointParameters {
+              position 6.047981605576541e-07
+              axis -1 0 0.000796
+              anchor 0 0 0.065
+            }
+            device [
+              RotationalMotor {
+                name "joint_2"
+                minPosition -0.8
+                maxPosition 0.8
+                maxTorque 10000
+              }
+              PositionSensor {
+                name "joint_2_sensor"
+              }
+            ]
+            endPoint Solid {
+              translation 0 0 0.065
+              rotation -3.0239917923087434e-07 -0.9999999999999084 3.026398858279093e-07 1.5700000000000898
+              children [
+                Pose {
+                  rotation 0 0 -1 1.57
+                  children [
+                    Shape {
+                      appearance USE BLUE_APPEARANCE
+                      geometry Mesh {
+                        url [
+                          "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/niryo/ned/protos/meshes/arm_link_0.obj"
+                        ]
+                      }
+                    }
+                  ]
+                }
+                Pose {
+                  rotation 0 0 -1 1.57
+                  children [
+                    Shape {
+                      appearance USE BLACK_APPEARANCE
+                      geometry Mesh {
+                        url [
+                          "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/niryo/ned/protos/meshes/arm_link_1.obj"
+                        ]
+                      }
+                    }
+                  ]
+                }
+                Pose {
+                  translation 0.083 0 0
+                  rotation 0 1 0 1.57
+                  children [
+                    Shape {
+                      appearance USE GRAY_APPEARANCE
+                      geometry DEF ARM_LINK_2 Cylinder {
+                        bottom FALSE
+                        height 0.06
+                        radius 0.0198
+                        top FALSE
+                      }
+                    }
+                  ]
+                }
+                HingeJoint {
+                  jointParameters HingeJointParameters {
+                    position 5.268301003707167e-07
+                    axis 0 0 1
+                    anchor 0.221 0.012 0
+                  }
+                  device [
+                    RotationalMotor {
+                      name "joint_3"
+                      minPosition -1.5
+                      maxPosition 1.3
+                      maxTorque 10000
+                    }
+                    PositionSensor {
+                      name "joint_3_sensor"
+                    }
+                  ]
+                  endPoint Solid {
+                    translation 0.221 0.012 0
+                    rotation 0 0 1 5.26413969178669e-07
+                    children [
+                      Pose {
+                        rotation 0 0 -1 1.57
+                        children [
+                          Shape {
+                            appearance USE GRAY_APPEARANCE
+                            geometry Cylinder {
+                              bottom FALSE
+                              height 0.09
+                              radius 0.02
+                              top FALSE
+                            }
+                          }
+                        ]
+                      }
+                      Pose {
+                        rotation 0 0 -1 1.57
+                        children [
+                          Shape {
+                            appearance USE BLACK_APPEARANCE
+                            geometry Mesh {
+                              url [
+                                "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/niryo/ned/protos/meshes/elbow_link.obj"
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                      HingeJoint {
+                        jointParameters HingeJointParameters {
+                          position 5.766498585021512e-07
+                          axis -0.000796 1 1e-06
+                          anchor 0.032 0.042 0
+                        }
+                        device [
+                          RotationalMotor {
+                            name "joint_4"
+                            minPosition -2
+                            maxPosition 2
+                            maxTorque 10000
+                          }
+                          PositionSensor {
+                            name "joint_4_sensor"
+                          }
+                        ]
+                        endPoint Solid {
+                          translation 0.032 0.042 0
+                          rotation -0.5775034507456331 -0.5775031177282101 -0.5770441173697927 2.09347466724773
+                          children [
+                            Pose {
+                              translation 0 0 0.0698
+                              rotation 0 1 0 0
+                              children [
+                                Shape {
+                                  appearance USE GRAY_APPEARANCE
+                                  geometry Cylinder {
+                                    bottom FALSE
+                                    height 0.0504
+                                    radius 0.0198
+                                    top FALSE
+                                  }
+                                }
+                              ]
+                            }
+                            Pose {
+                              translation 0 0 0.02
+                              rotation 0 1 0 0
+                              children [
+                                Shape {
+                                  appearance USE BLUE_APPEARANCE
+                                  geometry Mesh {
+                                    url [
+                                      "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/niryo/ned/protos/meshes/forearm_link_0.obj"
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                            Pose {
+                              translation 0 0 0.02
+                              rotation 0 1 0 0
+                              children [
+                                Shape {
+                                  appearance USE BLACK_APPEARANCE
+                                  geometry Mesh {
+                                    url [
+                                      "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/niryo/ned/protos/meshes/forearm_link_1.obj"
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                            HingeJoint {
+                              jointParameters HingeJointParameters {
+                                position -2.801434322061884e-09
+                                axis -1 0 1e-06
+                                anchor 0 0 0.188
+                              }
+                              device [
+                                RotationalMotor {
+                                  name "joint_5"
+                                  minPosition -1.5
+                                  maxPosition 1.5
+                                  maxTorque 10000
+                                }
+                                PositionSensor {
+                                  name "joint_5_sensor"
+                                }
+                              ]
+                              endPoint Solid {
+                                translation 0 0 0.188
+                                rotation -0.00039799853623922674 -0.9999998415971526 0.0003979985362371049 1.5707959999988839
+                                children [
+                                  Shape {
+                                    appearance PBRAppearance {
+                                      baseColor 0.501961 0.501961 0.501961
+                                      baseColorMap ImageTexture {
+                                        url [
+                                          "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/brushed_aluminium/brushed_aluminium_base_color.jpg"
+                                        ]
+                                      }
+                                      roughnessMap ImageTexture {
+                                        url [
+                                          "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/brushed_aluminium/brushed_aluminium_roughness.jpg"
+                                        ]
+                                      }
+                                      normalMap ImageTexture {
+                                        url [
+                                          "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/brushed_aluminium/brushed_aluminium_normal.jpg"
+                                        ]
+                                      }
+                                    }
+                                    geometry Mesh {
+                                      url [
+                                        "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/niryo/ned/protos/meshes/wrist_link_0.obj"
+                                      ]
+                                    }
+                                  }
+                                  Shape {
+                                    appearance USE GRAY_APPEARANCE
+                                    geometry Mesh {
+                                      url [
+                                        "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/niryo/ned/protos/meshes/wrist_link_1.obj"
+                                      ]
+                                    }
+                                  }
+                                  HingeJoint {
+                                    jointParameters HingeJointParameters {
+                                      position 7.213995217159246e-09
+                                      axis 1 0 0.000796
+                                      anchor 0.0197 0.00925 0
+                                    }
+                                    device [
+                                      RotationalMotor {
+                                        name "joint_6"
+                                        minPosition -2.5
+                                        maxPosition 2.5
+                                        maxTorque 10000
+                                      }
+                                      PositionSensor {
+                                        name "joint_6_sensor"
+                                      }
+                                    ]
+                                    endPoint Solid {
+                                      translation 0.0197 0.00925 0
+                                      rotation 4.270483519187576e-09 1 4.273882779589702e-09 1.57
+                                      children [
+                                        Shape {
+                                          appearance USE GRAY_APPEARANCE
+                                          geometry Mesh {
+                                            url [
+                                              "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/niryo/ned/protos/meshes/hand_link_0.obj"
+                                            ]
+                                          }
+                                        }
+                                        Shape {
+                                          appearance USE BLACK_APPEARANCE
+                                          geometry Mesh {
+                                            url [
+                                              "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/niryo/ned/protos/meshes/hand_link_1.obj"
+                                            ]
+                                          }
+                                        }
+                                        Solid {
+                                          translation 0 0 0.0215
+                                          rotation -0.5775032287046064 -0.5770442285228317 0.5775032287046064 2.093475
+                                          children [
+                                            Shape {
+                                              appearance PBRAppearance {
+                                                baseColor 0 0 0
+                                                roughness 1
+                                                roughnessMap ImageTexture {
+                                                  url [
+                                                    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/plastic/plastic_rough_roughness.jpg"
+                                                  ]
+                                                }
+                                                metalness 0
+                                                IBLStrength 0.5
+                                                normalMap ImageTexture {
+                                                  url [
+                                                    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/textures/plastic/plastic_rough_normal.jpg"
+                                                  ]
+                                                }
+                                              }
+                                              geometry Mesh {
+                                                url [
+                                                  "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/niryo/ned/protos/meshes/base_gripper.obj"
+                                                ]
+                                              }
+                                            }
+                                            SliderJoint {
+                                              jointParameters JointParameters {
+                                                position 5.717091154576795e-11
+                                                axis 0 -4e-06 1
+                                              }
+                                              device [
+                                                LinearMotor {
+                                                  name "gripper::right"
+                                                  maxVelocity 5
+                                                  minPosition -0.01
+                                                  maxPosition 0.01
+                                                  maxForce 1
+                                                }
+                                                PositionSensor {
+                                                  name "gripper::right_sensor"
+                                                }
+                                              ]
+                                              endPoint Solid {
+                                                translation 0.01455 -0.02440000000000023 0.009614000057170911
+                                                rotation 1 0 0 1.5708
+                                                children [
+                                                  Shape {
+                                                    appearance USE BLACK_APPEARANCE
+                                                    geometry Mesh {
+                                                      url [
+                                                        "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/niryo/ned/protos/meshes/jaw_1.obj"
+                                                      ]
+                                                    }
+                                                  }
+                                                ]
+                                                name "jaw_1"
+                                                boundingObject Pose {
+                                                  translation -0.007 0.0064 0.0386
+                                                  rotation 0 1 0 0
+                                                  children [
+                                                    Box {
+                                                      size 0.02 0.01 0.035
+                                                    }
+                                                  ]
+                                                }
+                                                physics Physics {
+                                                  density -1
+                                                  mass 0.006725
+                                                  centerOfMass [
+                                                    -0.004974 0.006739 -0.023929
+                                                  ]
+                                                  inertiaMatrix [
+                                                    1.1778e-06 1.3054e-06 4.3534e-07
+                                                    -2.1129e-08 1.0185e-07 1.7669e-07
+                                                  ]
+                                                }
+                                                linearVelocity 1.1428099574643772e-06 1.080158690746954e-06 -3.0147217454354163e-07
+                                                angularVelocity -1.1926695323815905e-06 -5.589061285499003e-06 4.022717549263453e-08
+                                              }
+                                            }
+                                            SliderJoint {
+                                              jointParameters JointParameters {
+                                                position -4.4881720807778667e-11
+                                                axis 0 4e-06 -1
+                                              }
+                                              device [
+                                                LinearMotor {
+                                                  name "gripper::left"
+                                                  maxVelocity 5
+                                                  minPosition -0.01
+                                                  maxPosition 0.01
+                                                  maxForce 1
+                                                }
+                                                PositionSensor {
+                                                  name "gripper::left_sensor"
+                                                }
+                                              ]
+                                              endPoint Solid {
+                                                translation 0.01455 -0.024400000000000182 -0.011065999955118278
+                                                rotation 1 0 0 1.5708
+                                                children [
+                                                  Shape {
+                                                    appearance USE BLACK_APPEARANCE
+                                                    geometry Mesh {
+                                                      url [
+                                                        "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/niryo/ned/protos/meshes/jaw_2.obj"
+                                                      ]
+                                                    }
+                                                  }
+                                                ]
+                                                name "jaw_2"
+                                                boundingObject Pose {
+                                                  translation -0.007 -0.0064 0.0386
+                                                  children [
+                                                    Box {
+                                                      size 0.02 0.01 0.035
+                                                    }
+                                                  ]
+                                                }
+                                                physics Physics {
+                                                  density -1
+                                                  mass 0.006725
+                                                  centerOfMass [
+                                                    -0.004974 -0.006739 -0.023929
+                                                  ]
+                                                  inertiaMatrix [
+                                                    1.1778e-06 1.3054e-06 4.3534e-07
+                                                    2.1129e-08 1.0185e-07 -1.7669e-07
+                                                  ]
+                                                }
+                                                linearVelocity 1.1374110140824462e-06 1.0659726648976866e-06 -1.0776014370787729e-07
+                                                angularVelocity -1.1926695248017726e-06 -5.589061318003962e-06 4.022721444644236e-08
+                                              }
+                                            }
+                                          ]
+                                          name "base_gripper"
+                                          boundingObject Group {
+                                            children [
+                                              Pose {
+                                                translation 0.0133212 -0.0230187 0
+                                                children [
+                                                  Box {
+                                                    size 0.003 0.033 0.06
+                                                  }
+                                                ]
+                                              }
+                                              Pose {
+                                                translation -0.000465164 -0.0254394 0.00449635
+                                                children [
+                                                  Box {
+                                                    size 0.024 0.025 0.034
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                          physics Physics {
+                                            density -1
+                                            mass 0.001
+                                            centerOfMass [
+                                              0.002858 0.00222 0.023772
+                                            ]
+                                            inertiaMatrix [
+                                              1e-06 1e-06 1e-06
+                                              0 0 0
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                      name "hand_link"
+                                      boundingObject Group {
+                                        children [
+                                          Pose {
+                                            translation 0 0 0.0125971
+                                            children [
+                                              Cylinder {
+                                                height 0.025
+                                                radius 0.0155
+                                              }
+                                            ]
+                                          }
+                                          Pose {
+                                            translation 0 0 -0.001
+                                            children [
+                                              Cylinder {
+                                                height 0.001
+                                                radius 0.0083
+                                              }
+                                            ]
+                                          }
+                                          Pose {
+                                            translation 0 0 -0.003
+                                            children [
+                                              Cylinder {
+                                                height 0.002
+                                                radius 0.0066
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                      physics Physics {
+                                        density -1
+                                        mass 0.014877
+                                        centerOfMass [
+                                          0 -1.4e-05 0.008816
+                                        ]
+                                        inertiaMatrix [
+                                          0.0015 0.0015 0.0015
+                                          0 0 0
+                                        ]
+                                      }
+                                      linearVelocity 1.1638422505674893e-06 9.82089493245049e-07 -2.0778079571125462e-07
+                                      angularVelocity -1.1926693971271086e-06 -5.589061155338318e-06 4.022747825755561e-08
+                                    }
+                                  }
+                                ]
+                                name "wrist_link"
+                                boundingObject Group {
+                                  children [
+                                    Pose {
+                                      translation -0.0192778 -0.000743199 0
+                                      children [
+                                        Box {
+                                          size 0.06 0.035 0.031
+                                        }
+                                      ]
+                                    }
+                                    Pose {
+                                      translation -0.00967641 0.000227924 0.0451439
+                                      children [
+                                        Box {
+                                          size 0.047 0.03 0.03
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                                physics Physics {
+                                  density -1
+                                  mass 0.04036
+                                  centerOfMass [
+                                    -0.019323 -0.00157 0.000276
+                                  ]
+                                  inertiaMatrix [
+                                    0.0015 0.0015 0.0015
+                                    0 0 0
+                                  ]
+                                }
+                                linearVelocity 9.944600359271766e-07 7.767127545404285e-07 -1.6440225311493362e-07
+                                angularVelocity -1.1688072928384747e-06 -5.522116005645366e-06 4.0258214926586676e-08
+                              }
+                            }
+                          ]
+                          name "forearm_link"
+                          boundingObject Group {
+                            children [
+                              Pose {
+                                translation 0 0 0.11796
+                                children [
+                                  Box {
+                                    size 0.057 0.046 0.026
+                                  }
+                                ]
+                              }
+                              Pose {
+                                translation 0.0249332 0 0.165857
+                                children [
+                                  Box {
+                                    size 0.01 0.05 0.09
+                                  }
+                                ]
+                              }
+                              Pose {
+                                translation -0.0249332 0 0.165857
+                                children [
+                                  Box {
+                                    size 0.01 0.05 0.09
+                                  }
+                                ]
+                              }
+                              Pose {
+                                translation 0 0 0.1
+                                children [
+                                  Cylinder {
+                                    height 0.01
+                                    radius 0.025
+                                  }
+                                ]
+                              }
+                              Pose {
+                                translation 0 0 0.08
+                                children [
+                                  Shape {
+                                    geometry DEF ARM_CYLINDER Cylinder {
+                                      height 0.07
+                                      radius 0.02
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                          physics Physics {
+                            density -1
+                            mass 0.203544
+                            centerOfMass [
+                              -0.008113 -0.000136 0.107402
+                            ]
+                            inertiaMatrix [
+                              0.0015 0.0015 0.0015
+                              0 0 0
+                            ]
+                          }
+                          linearVelocity 7.341794164970546e-07 4.914447778310086e-07 -1.62736239084344e-07
+                          angularVelocity -1.1727329280762379e-06 -5.520730674337629e-06 4.0309463665914796e-08
+                        }
+                      }
+                    ]
+                    name "elbow_link"
+                    boundingObject Group {
+                      children [
+                        Pose {
+                          translation 0.0578779 -0.00895837 -2.32375e-05
+                          children [
+                            Box {
+                              size 0.02 0.035 0.028
+                            }
+                          ]
+                        }
+                        Pose {
+                          translation 0.0321718 0.039196 -2.32375e-05
+                          children [
+                            Box {
+                              size 0.055 0.07 0.061
+                            }
+                          ]
+                        }
+                        Pose {
+                          translation 0.0324062 0.08 0
+                          rotation 1 0 0 1.5708
+                          children [
+                            Cylinder {
+                              height 0.01
+                              radius 0.026
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                    physics Physics {
+                      density -1
+                      mass 0.201039
+                      centerOfMass [
+                        0.008405 0.023513 0.001398
+                      ]
+                      inertiaMatrix [
+                        0.0015 0.0015 0.0015
+                        0 0 0
+                      ]
+                    }
+                    linearVelocity 1.1625556799439521e-07 3.748399925010865e-08 -2.3668120034656435e-08
+                    angularVelocity 7.012548542101778e-07 -2.497522611974885e-07 4.499897176560301e-08
+                  }
+                }
+              ]
+              name "arm_link"
+              boundingObject Group {
+                children [
+                  Pose {
+                    translation 0.16 0 0.0605486
+                    children [
+                      Box {
+                        size 0.042 0.04 0.02
+                      }
+                    ]
+                  }
+                  Pose {
+                    translation 0.16 0 0.0753145
+                    children [
+                      Box {
+                        size 0.03 0.03 0.01
+                      }
+                    ]
+                  }
+                  Pose {
+                    translation 0.133834 0.000240617 0.0582376
+                    children [
+                      Box {
+                        size 0.01 0.02 0.012
+                      }
+                    ]
+                  }
+                  Pose {
+                    translation 0.08 0 0
+                    rotation 0 1 0 1.5708
+                    children [
+                      Shape {
+                        geometry USE ARM_CYLINDER
+                      }
+                    ]
+                  }
+                  Pose {
+                    translation 0.221923 0.0118923 0
+                    children [
+                      Cylinder {
+                        height 0.0986
+                        radius 0.043
+                      }
+                    ]
+                  }
+                  Pose {
+                    translation 0.11 0 4.89665e-14
+                    rotation 0 1 0 1.5708
+                    children [
+                      Cylinder {
+                        height 0.01
+                        radius 0.025
+                      }
+                    ]
+                  }
+                  Pose {
+                    translation 0.15 0 0
+                    children [
+                      Box {
+                        size 0.07 0.065 0.1
+                      }
+                    ]
+                  }
+                ]
+              }
+              physics Physics {
+                density -1
+                mass 0.513332
+                centerOfMass [
+                  0.116485 -0.001412 -0.003381
+                ]
+                inertiaMatrix [
+                  0.0015 0.0015 0.0015
+                  0 0 0
+                ]
+              }
+              linearVelocity -1.476710259985333e-08 -7.835675845206997e-08 8.058274839059862e-10
+              angularVelocity 4.921567035210645e-07 -1.7539222407211771e-07 4.5122605282203515e-08
+            }
+          }
+        ]
+        name "shoulder_link"
+        boundingObject Group {
+          children [
+            Pose {
+              translation 0 0 0.111566
+              children [
+                Cylinder {
+                  height 0.01
+                  radius 0.023
+                }
+              ]
+            }
+            Pose {
+              translation 0 0 0.065
+              rotation 0 1 0 1.5708
+              children [
+                Cylinder {
+                  height 0.1135
+                  radius 0.047
+                }
+              ]
+            }
+            Pose {
+              translation 0.041 0 0
+              children [
+                Box {
+                  size 0.0278 0.091 0.05
+                }
+              ]
+            }
+            Pose {
+              translation -0.041 0 0
+              children [
+                Box {
+                  size 0.0278 0.091 0.05
+                }
+              ]
+            }
+            Pose {
+              translation -0.0289963 -0.0765147 0.0281212
+              children [
+                Box {
+                  size 0.085 0.042 0.042
+                }
+              ]
+            }
+            Pose {
+              translation 0.0289933 -0.0785292 0.0269699
+              children [
+                Box {
+                  size 0.03 0.061 0.052
+                }
+              ]
+            }
+            Pose {
+              translation -0.0771342 -0.0765147 0.0281212
+              children [
+                Box {
+                  size 0.011 0.03 0.03
+                }
+              ]
+            }
+          ]
+        }
+        physics Physics {
+          density -1
+          mass 0.474559
+          centerOfMass [
+            -0.030731 0.005811 0.030228
+          ]
+          inertiaMatrix [
+            0.0015 0.0015 0.0015
+            0 0 0
+          ]
+        }
+        linearVelocity -9.964101393285043e-08 1.6684490171680483e-07 3.838771516905853e-11
+        angularVelocity -6.610575051000088e-11 -9.70689084514515e-11 4.50492507875577e-08
+      }
+    }
+  ]
+  name "Ned"
+  boundingObject Group {
+    children [
+      Pose {
+        translation 0.09 0.09 0.003
+        children [
+          DEF BASE_BOTTOM_BIG_CYLINDER Cylinder {
+            height 0.006
+            radius 0.02
+          }
+        ]
+      }
+      Pose {
+        translation -0.09 0.09 0.003
+        children [
+          USE BASE_BOTTOM_BIG_CYLINDER
+        ]
+      }
+      Pose {
+        translation 0.09 -0.09 0.003
+        children [
+          USE BASE_BOTTOM_BIG_CYLINDER
+        ]
+      }
+      Pose {
+        translation -0.09 -0.09 0.003
+        children [
+          USE BASE_BOTTOM_BIG_CYLINDER
+        ]
+      }
+      Pose {
+        translation 0.09 0.09 0.008
+        children [
+          DEF BASE_BOTTOM_SMALL_CYLINDER Cylinder {
+            height 0.004
+            radius 0.012
+          }
+        ]
+      }
+      Pose {
+        translation -0.09 0.09 0.008
+        children [
+          USE BASE_BOTTOM_SMALL_CYLINDER
+        ]
+      }
+      Pose {
+        translation 0.09 -0.09 0.008
+        children [
+          USE BASE_BOTTOM_SMALL_CYLINDER
+        ]
+      }
+      Pose {
+        translation -0.09 -0.09 0.008
+        children [
+          USE BASE_BOTTOM_SMALL_CYLINDER
+        ]
+      }
+      Pose {
+        translation 0 0 0.012
+        rotation 0 1 0 0
+        children [
+          Box {
+            size 0.2 0.2 0.004
+          }
+        ]
+      }
+      Pose {
+        translation 0 -0.0455 0.052
+        rotation 0 1 0 0
+        children [
+          Box {
+            size 0.136 0.091 0.076
+          }
+        ]
+      }
+      Pose {
+        translation 0 0.04425 0.052
+        rotation 0 1 0 0
+        children [
+          Box {
+            size 0.099 0.0885 0.076
+          }
+        ]
+      }
+      Pose {
+        translation 0.0485 0.0485 0.052
+        children [
+          DEF BASE_BIG_CYLINDER Cylinder {
+            height 0.076
+            radius 0.04
+          }
+        ]
+      }
+      Pose {
+        translation -0.0485 0.0485 0.052
+        children [
+          USE BASE_BIG_CYLINDER
+        ]
+      }
+      Pose {
+        translation 0.068 -0.071 0.052
+        children [
+          DEF BASE_SMALL_CYLINDER Cylinder {
+            height 0.076
+            radius 0.02
+          }
+        ]
+      }
+      Pose {
+        translation -0.068 -0.071 0.052
+        children [
+          USE BASE_SMALL_CYLINDER
+        ]
+      }
+      Pose {
+        translation 0 -0.0095 0.052
+        children [
+          Box {
+            size 0.176 0.1195 0.076
+          }
+        ]
+      }
+      Pose {
+        translation 0 0 0.0975
+        children [
+          Cylinder {
+            height 0.015
+            radius 0.074
+          }
+        ]
+      }
+    ]
+  }
+  controller "arm_controller"
+}
